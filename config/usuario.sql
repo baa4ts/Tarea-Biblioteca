@@ -1,0 +1,2 @@
+GRANT SELECT, INSERT, UPDATE, DELETE ON biblioteca.* TO 'appuser'@'%';
+FLUSH PRIVILEGES;
