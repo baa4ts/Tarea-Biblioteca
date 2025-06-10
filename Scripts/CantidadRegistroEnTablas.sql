@@ -1,3 +1,4 @@
+use Biblioteca;
 SELECT COUNT(*) AS 'Total Autores' FROM Autores;
 SELECT COUNT(*) AS 'Total Libros' FROM Libros;
 SELECT COUNT(*) AS 'Total Socios' FROM Socios;

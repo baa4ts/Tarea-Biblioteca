@@ -11,9 +11,9 @@ async function main() {
   });
 
   try {
-    // Ejemplo de consulta
-    const [rows] = await connection.execute('SELECT NOW() AS now');
-    console.log('Hora actual del servidor MySQL:', rows[0].now);
+    // Ejecutar consulta para contar autores
+    const [rows] = await connection.execute('SELECT COUNT(*) AS `Total Autores` FROM Autores');
+    console.log('Total de autores:', rows[0]['Total Autores']);
   } catch (error) {
     console.error('Error en la consulta:', error);
   } finally {

@@ -1,3 +1,4 @@
+use Biblioteca;
 SELECT  
     s.nombre_completo AS socio, 
     l.titulo AS libro, 

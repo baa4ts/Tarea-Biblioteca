@@ -1,3 +1,4 @@
+use Biblioteca;
 SELECT  
     l.titulo, 
     a.nombre_completo AS autor, 
